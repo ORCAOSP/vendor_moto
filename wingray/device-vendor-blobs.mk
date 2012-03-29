@@ -61,3 +61,5 @@ PRODUCT_PACKAGES += \
     StingrayProgramMenuSystem \
     UsbHelper
 
+$(call inherit-product, vendor/broadcom/wingray/device-wingray.mk)
+$(call inherit-product, vendor/nvidia/wingray/device-wingray.mk)
