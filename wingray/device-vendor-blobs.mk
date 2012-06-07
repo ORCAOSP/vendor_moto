@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/wingray/proprietary/location:system/bin/location \
     vendor/moto/wingray/proprietary/tcmd:system/bin/tcmd \
     vendor/moto/wingray/proprietary/cpcap_gain.bin:system/etc/cpcap_gain.bin \
-    vendor/moto/wingray/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
     vendor/moto/wingray/proprietary/gps.conf:system/etc/gps.conf \
     vendor/moto/wingray/proprietary/gpsconfig.xml:system/etc/gpsconfig.xml \
     vendor/moto/wingray/proprietary/location.cfg:system/etc/location.cfg \
@@ -33,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/wingray/proprietary/tcmd_leds.cfg:system/etc/motorola/12m/tcmd_leds.cfg \
     vendor/moto/wingray/proprietary/suplcerts.bks:system/etc/security/suplcerts.bks \
     vendor/moto/wingray/proprietary/voip_aud_params.bin:system/etc/voip_aud_params.bin \
-    vendor/moto/wingray/proprietary/bcm4329.cal:system/etc/wifi/bcm4329.cal \
     vendor/moto/wingray/proprietary/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
     vendor/moto/wingray/proprietary/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
     vendor/moto/wingray/proprietary/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
@@ -47,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/wingray/proprietary/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/moto/wingray/proprietary/bootanimation-encrypted.zip:system/media/bootanimation-encrypted.zip \
     vendor/moto/wingray/proprietary/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    vendor/moto/wingray/proprietary/fw_bcm4329_mfg.bin:system/vendor/firmware/fw_bcm4329_mfg.bin \
     vendor/moto/wingray/proprietary/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/moto/wingray/proprietary/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/moto/wingray/proprietary/LMprec_508.emd:system/media/LMprec_508.emd \
