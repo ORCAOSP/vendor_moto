@@ -50,13 +50,10 @@ PRODUCT_COPY_FILES += \
     vendor/moto/wingray/proprietary/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/moto/wingray/proprietary/PFFprec_600.emd:system/media/PFFprec_600.emd \
 
-
 # All the apks necessary for wingray
 PRODUCT_PACKAGES += \
     MotoLocationProxy \
-    StingrayProgramMenu \
-    StingrayProgramMenuSystem \
-    UsbHelper
+    UsbHelper \
 
 $(call inherit-product, vendor/broadcom/wingray/device-wingray.mk)
 $(call inherit-product, vendor/nvidia/wingray/device-wingray.mk)

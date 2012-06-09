@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AppDirectedSmsService \
     MotoImsServer \
-    MotoLocationProxy \
     MotoLteTelephony \
     MotoModemUtil \
     MotoSimUiHelper \
@@ -36,7 +35,5 @@ PRODUCT_PACKAGES += \
     StingrayProgramMenuSystem \
     VZWAPNLib \
     VZWAPNService \
-    UsbHelper \
-    VZWAPNService
 
 $(call inherit-product, vendor/moto/wingray/device-vendor-blobs.mk)
