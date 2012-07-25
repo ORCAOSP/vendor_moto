@@ -45,8 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/wingray/proprietary/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/moto/wingray/proprietary/bootanimation-encrypted.zip:system/media/bootanimation-encrypted.zip \
     vendor/moto/wingray/proprietary/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    vendor/moto/wingray/proprietary/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/moto/wingray/proprietary/libfrsdk.so:system/lib/libfrsdk.so \
+    vendor/moto/wingray/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/moto/wingray/proprietary/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/moto/wingray/proprietary/PFFprec_600.emd:system/media/PFFprec_600.emd \
     vendor/moto/wingray/proprietary/google.xml:system/etc/preferred-apps/google.xml \
@@ -54,6 +53,9 @@ PRODUCT_COPY_FILES += \
     vendor/moto/wingray/proprietary/endpointer_dictation.config:system/usr/srec/en-US/endpointer_dictation.config \
     vendor/moto/wingray/proprietary/endpointer_voicesearch.config:system/usr/srec/en-US/endpointer_voicesearch.config \
     vendor/moto/wingray/proprietary/ep_acoustic_model:system/usr/srec/en-US/ep_acoustic_model \
+    vendor/moto/wingray/proprietary/libgoogle_endpointer_jni.so:system/lib/libgoogle_endpointer_jni.so \
+    vendor/moto/wingray/proprietary/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
+    vendor/moto/wingray/proprietary/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
     vendor/moto/wingray/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/moto/wingray/proprietary/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/moto/wingray/proprietary/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
@@ -62,8 +64,7 @@ PRODUCT_COPY_FILES += \
 
 # All the apks necessary for wingray
 PRODUCT_PACKAGES += \
-    MotoLocationProxy \
-    UsbHelper \
+    MotoLocationProxy
 
 $(call inherit-product, vendor/broadcom/wingray/device-wingray.mk)
 $(call inherit-product, vendor/nvidia/wingray/device-wingray.mk)
