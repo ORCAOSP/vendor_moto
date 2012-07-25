@@ -49,6 +49,16 @@ PRODUCT_COPY_FILES += \
     vendor/moto/wingray/proprietary/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/moto/wingray/proprietary/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/moto/wingray/proprietary/PFFprec_600.emd:system/media/PFFprec_600.emd \
+    vendor/moto/wingray/proprietary/google.xml:system/etc/preferred-apps/google.xml \
+    vendor/moto/wingray/proprietary/metadata:system/usr/srec/en-US/metadata \
+    vendor/moto/wingray/proprietary/endpointer_dictation.config:system/usr/srec/en-US/endpointer_dictation.config \
+    vendor/moto/wingray/proprietary/endpointer_voicesearch.config:system/usr/srec/en-US/endpointer_voicesearch.config \
+    vendor/moto/wingray/proprietary/ep_acoustic_model:system/usr/srec/en-US/ep_acoustic_model \
+    vendor/moto/wingray/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/moto/wingray/proprietary/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/moto/wingray/proprietary/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/moto/wingray/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/moto/wingray/proprietary/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 
 # All the apks necessary for wingray
 PRODUCT_PACKAGES += \
