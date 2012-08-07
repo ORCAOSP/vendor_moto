@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/stingray/proprietary/com.vzw.hardware.ehrpd.xml:system/etc/permissions/com.vzw.hardware.ehrpd.xml \
     vendor/moto/stingray/proprietary/com.vzw.hardware.lte.xml:system/etc/permissions/com.vzw.hardware.lte.xml \
     vendor/moto/stingray/proprietary/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
+    vendor/moto/stingray/proprietary/libdmengine.so:system/lib/libdmengine.so \
 
 # All the apks necessary for stingray
 PRODUCT_PACKAGES += \
@@ -35,5 +36,7 @@ PRODUCT_PACKAGES += \
     StingrayProgramMenuSystem \
     VZWAPNLib \
     VZWAPNService \
+    ConnMO \
+    DMService \
 
 $(call inherit-product, vendor/moto/wingray/device-vendor-blobs.mk)
