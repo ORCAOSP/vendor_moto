@@ -36,7 +36,5 @@ PRODUCT_PACKAGES += \
     StingrayProgramMenuSystem \
     VZWAPNLib \
     VZWAPNService \
-    ConnMO \
-    DMService \
 
 $(call inherit-product, vendor/moto/wingray/device-vendor-blobs.mk)
