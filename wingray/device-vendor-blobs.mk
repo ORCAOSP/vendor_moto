@@ -46,8 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/wingray/proprietary/endpointer_dictation.config:system/usr/srec/en-US/endpointer_dictation.config \
     vendor/moto/wingray/proprietary/endpointer_voicesearch.config:system/usr/srec/en-US/endpointer_voicesearch.config \
     vendor/moto/wingray/proprietary/ep_acoustic_model:system/usr/srec/en-US/ep_acoustic_model \
-    vendor/moto/wingray/proprietary/libgoogle_endpointer_jni.so:system/lib/libgoogle_endpointer_jni.so \
-    vendor/moto/wingray/proprietary/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
     vendor/moto/wingray/proprietary/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
     vendor/moto/wingray/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/moto/wingray/proprietary/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
