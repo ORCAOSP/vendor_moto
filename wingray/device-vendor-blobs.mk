@@ -52,7 +52,8 @@ PRODUCT_COPY_FILES += \
     vendor/moto/wingray/proprietary/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/moto/wingray/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/moto/wingray/proprietary/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-
+	vendor/moto/wingray/proprietary/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+	
 # All the apks necessary for wingray
 PRODUCT_PACKAGES += \
     MotoLocationProxy
